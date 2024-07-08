@@ -54,7 +54,10 @@ def enviar_mensagem(numero, mensagem):
         print(error_message)
 
 # Configura o driver do Chrome
-driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
+options = webdriver.ChromeOptions()
+options.add_argument("start-maximized")
+options.add_experimental_option('excludeSwitches', ['enable-logging'])
+driver = webdriver.Chrome(options=options, service=Service(ChromeDriverManager().install()))
 
 # Mensagem personalizada no terminal
 print(" ==========================================================================================")
@@ -77,7 +80,7 @@ try:
     time.sleep(1)
     print("QR code escaneado. Iniciando processo em 1")
     time.sleep(1)
-    print("Execução iniciada!")
+    print("Execução iniciada!\n")
 
     # Inicia o cronômetro
     start_time = time.time()
