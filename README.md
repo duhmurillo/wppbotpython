@@ -13,9 +13,7 @@ A bot to automatically send WhatsApp messages
 The phones archive should to have a list of WhatsApp phone numbers with DDD + number, e.g: 
 
 *11999999999*
-
 *11888888888*
-
 *11777777777*
 
 # How to Configure -> messages.txt
