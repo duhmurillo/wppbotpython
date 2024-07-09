@@ -12,9 +12,11 @@ A bot to automatically send WhatsApp messages
 # How to Configure -> phones.txt
 The phones archive should to have a list of WhatsApp phone numbers with DDD + number, e.g: 
 
-*11999999999*\n
-*11888888888*\n
-*11777777777*\n
+*11999999999*
+
+*11888888888*
+
+*11777777777*
 
 # How to Configure -> messages.txt
 The message archive should to have the message that will be send by bot, can have emojis, special characteres and WhatsApp formatting, e.g:
