@@ -6,7 +6,7 @@ A bot to automatically send WhatsApp messages
 1. Create a folder in local disk C: -> C:\WppBotPython
 2. Clone WppBotPython.py in C:\WppBotPython
 3. Open the terminal in C:\WppBotPython and run: *pyinstaller --onefile --console .\WppBotPython.py*
-4. Wait executable generation and add new archives in C:\WppBotPython -> phones.txt | messages.txt | commercial_name.txt
+4. Wait executable generation and add new archives in C:\WppBotPython -> phones.txt | messages.txt | company_name.txt
 5. open C:\WppBotPython\dist and open WppBotPython.exe
 
 # How to Configure -> phones.txt
@@ -34,7 +34,7 @@ Take advantage of our special discounts for new CNPJ:
 Get in touch with
 *Eduardo Murillo* via WhatsApp: 👉🏻 (15)99657-4253
 
-# How to Configure -> commercial_name.txt
-The commercial_name archive just should to have the Company Name, e.g:
+# How to Configure -> company_name.txt
+The company_name archive just should to have the Company Name, e.g:
 
 Eduardo's Bakery
