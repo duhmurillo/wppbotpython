@@ -20,6 +20,7 @@ The phones archive should to have a list of WhatsApp phone numbers with DDD + nu
 
 # How to Configure -> messages.txt
 The message archive should to have the message that will be send by bot, can have emojis, special characteres and WhatsApp formatting, e.g:
+
 *Today is a special day*
 Opening or expanding your own business is an important step and the realization of a dream. We know that this comes with challenges, especially legal obligations that consume time and effort.
 But do not worry! *We* are here to simplify and speed up this bureaucratic process for you, allowing your team to focus on what really matters.
@@ -35,4 +36,5 @@ Get in touch with
 
 # How to Configure -> commercial_name.txt
 The commercial_name archive just should to have the Company Name, e.g:
+
 Eduardo's Bakery
