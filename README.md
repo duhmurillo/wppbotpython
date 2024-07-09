@@ -1,6 +1,6 @@
 # WppBotPython
 A bot to automatically send WhatsApp messages
-## Current Version: 1.0.3
+## Current Version: 1.0.4
 
 # How to use
 1. Create a folder in local disk C: -> C:\WppBotPython
